@@ -10,7 +10,7 @@ app.set('view engine', 'ejs');
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(express.static("public"));
 
-mongoose.connect("mongodb+srv://humaapkekaun690:HEPcHFWXeMGXmMUL@cluster0.elnsvos.mongodb.net/", { useNewUrlParser: true });
+mongoose.connect("mongodb+srv://Arpit:F8kUrNYZ62AZNxPV@cluster0.ujxqkil.mongodb.net/", { useNewUrlParser: true });
 
 posts = [];
 
